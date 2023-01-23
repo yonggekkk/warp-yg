@@ -2,6 +2,8 @@
 
 ### 支持纯IPV4、纯IPV6的VPS直接安装，主流linux系统均支持
 
+### 支持warp-go与wgcf两种warp内核形式切换
+
 ### 相关说明及注意点请查看[博客说明](https://www.youtube.com/playlist?list=PLMgly2AulGG-WqPXPkHlqWVSfQ3XjHNw8)
 
 ### 一键脚本：
