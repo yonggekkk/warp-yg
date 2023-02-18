@@ -6,6 +6,8 @@
 
 ### 相关说明及注意点请查看[博客说明](https://www.youtube.com/playlist?list=PLMgly2AulGG-WqPXPkHlqWVSfQ3XjHNw8)
 
+-------------------------------------------------------------
+
 ### 一键脚本：
 ```
 wget -N --no-check-certificate https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh && bash CFwarp.sh
