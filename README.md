@@ -13,8 +13,7 @@
 wget -N --no-check-certificate https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh && bash CFwarp.sh
 ```
 
-![dee8f9d4b20b249a9e19b221781f6e5](https://user-images.githubusercontent.com/121604513/222885432-38a87c2b-2ca9-4839-b5a0-1d03a1a40a29.png)
-
+![bc1240a1121c0e1f058ae1489fec85c](https://user-images.githubusercontent.com/121604513/222885467-a7cfe093-edd6-42f4-9e55-e302ea5f82a0.png)
 
 
 ### 脚本源码备份[Gitlab地址](https://gitlab.com/rwkgyg/CFwarp)
