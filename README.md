@@ -18,3 +18,4 @@ wget -N --no-check-certificate https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.
 
 ### 脚本源码备份[Gitlab地址](https://gitlab.com/rwkgyg/CFwarp)
 
+wget -N --no-check-certificate https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh && bash CFwarp.sh
