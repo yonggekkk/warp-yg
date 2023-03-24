@@ -10,7 +10,7 @@
 
 ### 一键脚本：
 ```
-wget -N --no-check-certificate https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh && bash CFwarp.sh
+wget -N https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh && bash CFwarp.sh
 ```
 
 ![bc1240a1121c0e1f058ae1489fec85c](https://user-images.githubusercontent.com/121604513/222885467-a7cfe093-edd6-42f4-9e55-e302ea5f82a0.png)
