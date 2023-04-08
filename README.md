@@ -7,8 +7,6 @@ wget -N https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh && bash CFwarp.sh
 ```
 
 ---------------------------------------------------------------------
-![56635d8ed11dc226b2b28e5b21bb863](https://user-images.githubusercontent.com/121604513/227757725-fdb23dfe-be40-405f-91d4-b5dddebc2690.png)
-
 
 ### 二、多平台优选WARP对端IP脚本
 ```
@@ -21,6 +19,8 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh &
 
 --------------------------------------------------------------
 
-
 ### 以上脚本源码备份[Gitlab地址](https://gitlab.com/rwkgyg/CFwarp)
+-----------------------------------------------------------
+### WARP多功能VPS一键脚本界面图
+![98ae45b09a62a30f4281bdae8586c6d](https://user-images.githubusercontent.com/121604513/230701599-1701d8a4-367c-41ab-bdae-ed05cf5100d1.png)
 
