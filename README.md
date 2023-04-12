@@ -6,6 +6,10 @@
 wget -N https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh && bash CFwarp.sh
 ```
 
+强制终止warp-go：kill -15 $(pgrep warp-go) 
+
+终止wgcf：systemctl stop wg-quick@wgcf
+
 ---------------------------------------------------------------------
 
 ### 二、多平台优选WARP对端IP脚本
