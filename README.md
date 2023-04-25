@@ -6,9 +6,17 @@
 wget -N https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh && bash CFwarp.sh
 ```
 
-强制终止warp-go：```kill -15 $(pgrep warp-go) ```
+#### 1、强制终止warp-go：```kill -15 $(pgrep warp-go) ```
 
-终止wgcf：```systemctl stop wg-quick@wgcf```
+#### 2、终止wgcf：```systemctl stop wg-quick@wgcf```
+
+#### 3、关于warp在线监测机制：
+
+脚本会每隔60秒自动监测WARP是否开启，如关闭，则自动重启刷新5次WARP
+
+如果依旧关闭，则恢复原始VPS的IP，之后每50秒自动重启刷新5次WARP，如此循环，以确保VPS不失联
+
+关于监测间隔时间段，目前已写死60秒与50秒，如有需求，后续可增设自定义
 
 ---------------------------------------------------------------------
 
