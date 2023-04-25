@@ -10,7 +10,7 @@ wget -N https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh && bash CFwarp.sh
 
 #### 2、终止wgcf：```systemctl stop wg-quick@wgcf```
 
-#### 3、关于warp在线监测机制：
+#### 3、关于warp在线监测机制（仅支持方案一）：
 
 脚本会每隔60秒自动监测WARP是否开启，如关闭，则自动重启刷新5次WARP
 
