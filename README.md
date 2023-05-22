@@ -10,7 +10,6 @@ wget -N https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh && bash CFwarp.sh
 
 #### 2、终止wgcf：```systemctl stop wg-quick@wgcf```
 
-#### 3、关于warp在线监测机制（仅支持方案一）：
 
 ---------------------------------------------------------------------
 
