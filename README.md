@@ -25,10 +25,12 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh &
 
 使用方法：解压下载的（WIN端warp自选IP(手动+自动).zip）文件，参考使用方法及视频教程
 
---------------------------------------------------------------
-
-### 以上脚本源码备份[Gitlab地址](https://gitlab.com/rwkgyg/CFwarp)
 -----------------------------------------------------------
 ### WARP多功能VPS一键脚本界面图
 ![98ae45b09a62a30f4281bdae8586c6d](https://user-images.githubusercontent.com/121604513/230701599-1701d8a4-367c-41ab-bdae-ed05cf5100d1.png)
+--------------------------------------------------------------
+#### 以上脚本源码备份[Gitlab地址](https://gitlab.com/rwkgyg/CFwarp)
+#### 感谢WGCF源项目代码地址：https://github.com/ViRb3/wgcf
+#### 感谢CoiaPrant，WARP-GO源项目代码地址：https://gitlab.com/ProjectWARP/warp-go
+#### 相关功能参考来源： [P3terx](https://github.com/P3TERX/warp.sh)、[fscarmen](https://github.com/fscarmen/warp)、[热心的CF网友](https://github.com/badafans)提供的warp endpoint优选IP脚本及注册程序
 
