@@ -16,7 +16,7 @@ bash <(curl -Ls https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh)
 
 ---------------------------------------------------------------------
 
-### 二、多平台优选WARP对端IP + 无限生成WARP-Wireguard配置三合一 脚本
+### 二、多平台优选WARP对端IP + 无限生成WARP-Wireguard配置 脚本
 ```
 curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && ./endip.sh
 ```
