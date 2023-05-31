@@ -27,7 +27,8 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh &
 
 -----------------------------------------------------------
 ### WARP多功能VPS一键脚本界面图
-![98ae45b09a62a30f4281bdae8586c6d](https://user-images.githubusercontent.com/121604513/230701599-1701d8a4-367c-41ab-bdae-ed05cf5100d1.png)
+![43bb749b327c7e3bd5c03f927f3a69d](https://github.com/yonggekkk/warp-yg/assets/121604513/61d2d6c0-9594-4799-9188-084bad886a66)
+
 --------------------------------------------------------------
 #### 以上脚本源码备份[Gitlab地址](https://gitlab.com/rwkgyg/CFwarp)
 #### 感谢WGCF源项目代码地址：https://github.com/ViRb3/wgcf
