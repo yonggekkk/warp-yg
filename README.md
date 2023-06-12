@@ -16,10 +16,13 @@ bash <(curl -Ls https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh)
 
 ---------------------------------------------------------------------
 
-### 二、多平台优选WARP对端IP + 无限生成WARP-Wireguard配置 脚本
+### 二、多平台优选WARP对端IP + 无限生成WARP-Wireguard配置 一键脚本
 ```
 curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh && chmod +x endip.sh && ./endip.sh
 ```
+
+Replit平台无限生成WARP-Wireguard配置：https://replit.com/@ygkkkk/WARP-Wireguard-Register
+
 --------------------------------------------------------------
 ### 三、Windows平台warp官方客户端优选对端IP应用程序
 
