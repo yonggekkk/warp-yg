@@ -9,9 +9,11 @@ bash <(wget -qO- https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh 2> /dev/nul
 bash <(curl -Ls https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh)
 ```
 
-#### 1、强制终止warp-go：kill -15 $(pgrep warp-go)
+ 1、强制终止warp-go：
+ ```kill -15 $(pgrep warp-go)```
 
-#### 2、终止wgcf：systemctl stop wg-quick@wgcf
+ 2、终止wgcf：
+ ```systemctl stop wg-quick@wgcf```
 
 
 ---------------------------------------------------------------------
