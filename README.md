@@ -46,3 +46,6 @@ Replit平台一键无限生成WARP+密钥（2000多万GB流量）：https://repl
 #### 感谢CoiaPrant，WARP-GO源项目代码地址：https://gitlab.com/ProjectWARP/warp-go
 #### 相关功能参考来源： [P3terx](https://github.com/P3TERX/warp.sh)、[fscarmen](https://github.com/fscarmen/warp)、[热心的CF网友](https://github.com/badafans)提供的warp endpoint优选IP脚本及注册程序
 
+-----------------------------------------------------
+### 感谢你右上角的star🌟
+[![Stargazers over time](https://starchart.cc/yonggekkk/warp-yg.svg)](https://starchart.cc/yonggekkk/warp-yg)
