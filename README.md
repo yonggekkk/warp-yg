@@ -9,7 +9,7 @@ bash <(wget -qO- https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh 2> /dev/nul
 bash <(curl -Ls https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh)
 ```
 
-注：已安装的warp的VPS，如出现其他脚本运行下载失败，且无法进入脚本界面，请尝试以下快捷方式终止warp
+#### 千万要注意：如出现IP丢失、VPS运行卡顿、脚本运行下载失败、无法进入脚本界面等现象，请用以下命令终止warp，再重启或者重装warp
 
  1、终止warp-go：
  ```kill -15 $(pgrep warp-go)```
