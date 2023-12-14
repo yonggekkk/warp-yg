@@ -40,12 +40,18 @@ Replit平台一键无限生成WARP+密钥（2000多万GB流量）：https://repl
 ### WARP多功能VPS一键脚本界面图
 ![43bb749b327c7e3bd5c03f927f3a69d](https://github.com/yonggekkk/warp-yg/assets/121604513/61d2d6c0-9594-4799-9188-084bad886a66)
 
+-----------------------------------------------------
+### 感谢你右上角的star🌟
+[![Stargazers over time](https://starchart.cc/yonggekkk/warp-yg.svg)](https://starchart.cc/yonggekkk/warp-yg)
+
 --------------------------------------------------------------
-#### 以上脚本源码备份[Gitlab地址](https://gitlab.com/rwkgyg/CFwarp)
 #### 感谢WGCF源项目代码地址：https://github.com/ViRb3/wgcf
 #### 感谢CoiaPrant，WARP-GO源项目代码地址：https://gitlab.com/ProjectWARP/warp-go
 #### 相关功能参考来源： [P3terx](https://github.com/P3TERX/warp.sh)、[fscarmen](https://github.com/fscarmen/warp)、[热心的CF网友](https://github.com/badafans)提供的warp endpoint优选IP脚本及注册程序
 
------------------------------------------------------
-### 感谢你右上角的star🌟
-[![Stargazers over time](https://starchart.cc/yonggekkk/warp-yg.svg)](https://starchart.cc/yonggekkk/warp-yg)
+---------------------------------------
+#### 声明：
+
+#### 该项目使用base64加密，可自行解密，介意者请勿使用
+
+#### 所有代码来源于Github社区与ChatGPT的整合；如您需要开源代码，请提Issues留下您的联系邮箱
