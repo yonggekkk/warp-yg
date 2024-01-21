@@ -27,8 +27,6 @@ curl -sSL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/endip.sh -o endip.sh &
 
 Replit平台一键无限生成WARP-Wireguard配置（须登录fork后才可运行）：https://replit.com/@ygkkkk/WARP-Wireguard-Register
 
-Replit平台一键无限生成WARP+密钥（须登录fork后才可运行）：https://replit.com/@ygkkkk/WarpKey-Register-PRO
-
 --------------------------------------------------------------
 ### 三、Windows平台warp官方客户端优选对端IP应用程序
 
