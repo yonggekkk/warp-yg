@@ -37,9 +37,6 @@ red "不支持当前的系统，请选择使用Ubuntu,Debian,Centos系统。" &&
 fi
 vsid=$(grep -i version_id /etc/os-release | cut -d \" -f2 | cut -d . -f1)
 op=$(cat /etc/redhat-release 2>/dev/null || cat /etc/os-release 2>/dev/null | grep -i pretty_name | cut -d \" -f2)
-if [[ $(echo "$op" | grep -i -E "arch|alpine") ]]; then
-red "脚本不支持当前的 $op 系统，请选择使用Ubuntu,Debian,Centos系统。" && exit
-fi
 version=$(uname -r | cut -d "-" -f1)
 main=$(uname -r | cut -d "." -f1)
 minor=$(uname -r | cut -d "." -f2)
@@ -780,6 +777,9 @@ rm /tmp/crontab.tmp
 }
 
 ONEWARPGO(){
+if [[ $(echo "$op" | grep -i -E "arch|alpine") ]]; then
+red "脚本不支持当前的 $op 系统，请选择使用Ubuntu,Debian,Centos系统。" && exit
+fi
 yellow "\n 请稍等，当前为warp-go核心安装模式，检测对端IP与出站情况……"
 warpip
 
@@ -1388,6 +1388,9 @@ fi
 }
 
 ONEWGCFWARP(){
+if [[ $(echo "$op" | grep -i -E "arch|alpine") ]]; then
+red "脚本不支持当前的 $op 系统，请选择使用Ubuntu,Debian,Centos系统。" && exit
+fi
 yellow "\n 请稍等，当前为wgcf核心安装模式，检测对端IP与出站情况……"
 warpip
 
