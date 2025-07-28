@@ -679,11 +679,10 @@ echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] ht
 apt update;apt install cloudflare-warp -y
 fi
 warpip
-warp-cli --accept-tos register >/dev/null 2>&1 && sleep 2
-warp-cli --accept-tos set-mode proxy >/dev/null 2>&1
-warp-cli --accept-tos set-custom-endpoint "$endpoint" >/dev/null 2>&1
-warp-cli --accept-tos connect >/dev/null 2>&1
-warp-cli --accept-tos enable-always-on >/dev/null 2>&1
+echo y | warp-cli registration new
+warp-cli mode proxy 
+warp-cli proxy port 40000
+warp-cli connect
 #wppluskey >/dev/null 2>&1
 #ID=$(tail -n1 /root/WARP+Keys.txt | cut -d' ' -f1 2>/dev/null)
 #if [[ -n $ID ]]; then
