@@ -1649,7 +1649,7 @@ apt update -y;apt install iproute2 openresolv dnsutils iptables iputils-ping -y;
 elif [[ $release = Ubuntu ]]; then
 apt update -y;apt install iproute2 openresolv dnsutils iptables iputils-ping -y;apt install wireguard-tools --no-install-recommends -y			
 fi
-wget -N https://gitlab.com/rwkgyg/cfwarp/raw/main/wgcf_2.2.27_$cpu -O /usr/local/bin/wgcf && chmod +x /usr/local/bin/wgcf         
+wget -N https://gitlab.com/rwkgyg/cfwarp/raw/main/wgcf_2.2.26_$cpu -O /usr/local/bin/wgcf && chmod +x /usr/local/bin/wgcf         
 if [[ $main -lt 5 || $minor -lt 6 ]] || [[ $vi =~ lxc|openvz ]]; then
 [[ -e /usr/bin/wireguard-go ]] || wget -N https://gitlab.com/rwkgyg/cfwarp/raw/main/wireguard-go -O /usr/bin/wireguard-go && chmod +x /usr/bin/wireguard-go
 fi
