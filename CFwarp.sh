@@ -857,7 +857,6 @@ apt update -y;apt install iproute2 openresolv dnsutils iputils-ping -y
 fi
 wget -N https://gitlab.com/rwkgyg/CFwarp/-/raw/main/warp-go_1.0.8_linux_${cpu} -O /usr/local/bin/warp-go && chmod +x /usr/local/bin/warp-go
 yellow "正在申请WARP普通账户，请稍等！"
-curl -L -o /usr/local/bin/warp.conf --retry 2 https://api.zeroteam.top/warp?format=warp-go
 if [[ ! -s /usr/local/bin/warp.conf ]]; then
 cpujg
 curl -L -o warpapi -# --retry 2 https://gitlab.com/rwkgyg/CFwarp/-/raw/main/point/cpu1/$cpu
