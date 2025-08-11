@@ -633,7 +633,7 @@ if [[ $release = Centos ]]; then
 elif [[ $release = Ubuntu ]]; then
 [[ ! ${vsid} =~ 20|22|24 ]] && yellow "当前系统版本号：Ubuntu $vsid \nSocks5-WARP仅支持 Ubuntu 20.04/22.04/24.04系统 " && exit 
 elif [[ $release = Debian ]]; then
-[[ ! ${vsid} =~ 10|11|12 ]] && yellow "当前系统版本号：Debian $vsid \nSocks5-WARP仅支持 Debian 10/11/12系统 " && exit 
+[[ ! ${vsid} =~ 10|11|12|13 ]] && yellow "当前系统版本号：Debian $vsid \nSocks5-WARP仅支持 Debian 10/11/12/13系统 " && exit 
 fi
 [[ $(warp-cli --accept-tos status 2>/dev/null) =~ 'Connected' ]] && red "当前Socks5-WARP已经在运行中" && cf
 
