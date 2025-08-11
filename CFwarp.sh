@@ -146,7 +146,7 @@ v4v6
 if [[ -z $v4 ]]; then
 endpoint=[2606:4700:d0::a29f:c001]:2408
 else
-endpoint=162.159.193.10:1701
+endpoint=162.159.192.1:2408
 fi
 }
 
