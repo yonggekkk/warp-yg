@@ -142,12 +142,7 @@ wgcfv4=$(curl -s4m5 https://www.cloudflare.com/cdn-cgi/trace -k | grep warp | cu
 
 warpip(){
 mkdir -p /root/warpip
-v4v6
-if [[ -z $v4 ]]; then
-endpoint=[2606:4700:d0::a29f:c001]:2408
-else
-endpoint=162.159.192.1:2408
-fi
+endpoint="engage.cloudflareclient.com:2408"
 }
 
 dig9(){
