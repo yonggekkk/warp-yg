@@ -549,7 +549,7 @@ do
 [[ -n $(ss -ntlp | awk '{print $4}' | sed 's/.*://g' | grep -w "$port") ]] && yellow "\n端口被占用，请重新输入端口" && readp "自定义socks5端口:" port
 done
 fi
-[[ -n $port ]] && warp-cli proxy port $port >/dev/null 2>&1
+[[ -n $port ]] && warp-cli set-proxy-port $port >/dev/null 2>&1
 green "当前socks5端口：$port"
 sleep 2 && ShowSOCKS5 && S5menu
 }
